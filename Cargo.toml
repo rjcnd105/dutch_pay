@@ -1,0 +1,12 @@
+[package]
+name = "dutch_pay"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[workspace]
+members = ["dutch_lib","dutch_web_server","dutch_web_app"]

@@ -1,0 +1,14 @@
+[package]
+name = "dutch_web_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dutch_lib = { path = "../dutch_lib" }
+axum = "0.5.4"
+sled = "0.34.7"
+rand = "0.8.5"
+url = "2.2.2"
+fp-core = "0.1.9"
